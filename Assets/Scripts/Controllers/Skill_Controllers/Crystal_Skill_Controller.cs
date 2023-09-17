@@ -20,6 +20,8 @@ public class Crystal_Skill_Controller : MonoBehaviour
 
     private Transform closestTarget;
     [SerializeField] private LayerMask whatIsEnemy;
+
+    //khoi tao skill Crystal
     public void SetupCrystal(float _crystalDuration,bool _canExplode,bool _canMove,float _moveSpeed,Transform _closestTarget,Player _player)
     {
         player = _player;
@@ -43,6 +45,7 @@ public class Crystal_Skill_Controller : MonoBehaviour
 
     private void Update()
     {
+        //thoi gian ton tai giam dan
         crystalExistTimer -= Time.deltaTime;
 
         if (crystalExistTimer < 0)
@@ -90,6 +93,7 @@ public class Crystal_Skill_Controller : MonoBehaviour
         }
     }
 
+    //kich hoat animation Explode sau do Destroy
     public void FinishCrystal()
     {
         if (canExplode)
@@ -101,5 +105,6 @@ public class Crystal_Skill_Controller : MonoBehaviour
             SelfDestroy();
     }
 
+    //huy Gameobject
     public void SelfDestroy() => Destroy(gameObject);   
 }

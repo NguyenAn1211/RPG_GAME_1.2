@@ -100,7 +100,7 @@ public class Player : Entity
 
         CheckForDashInput();
 
-
+        //su dung Crystal skill
         if (Input.GetKeyDown(KeyCode.F) && skill.crystal.crystalUnlocked)
             skill.crystal.CanUseSkill();
 

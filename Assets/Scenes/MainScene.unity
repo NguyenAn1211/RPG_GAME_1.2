@@ -22458,7 +22458,7 @@ Transform:
   m_GameObject: {fileID: 1037633883}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.505196, y: 1.1945312, z: 0.2056961}
+  m_LocalPosition: {x: -1.75, y: 1.02, z: 0.2056961}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50745,7 +50745,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1,456
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -56644,7 +56644,7 @@ MonoBehaviour:
   cooldown: 60
   cooldownTimer: 0
   blackHoleUnlockButton: {fileID: 8259679}
-  blackholeUnlocked: 1
+  blackholeUnlocked: 0
   amountOfAttacks: 15
   cloneCooldown: 0.35
   blackholeDuration: 3
@@ -60198,8 +60198,8 @@ MonoBehaviour:
   blackholeImage: {fileID: 1172069448}
   flaskImage: {fileID: 467408049}
   currentSouls: {fileID: 1569758158}
-  soulsAmount: 0
-  increaseRate: 250
+  soulsAmount: 10
+  increaseRate: 500
 --- !u!114 &4040031580290300183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60990,7 +60990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6206658356321360434, guid: 5a8289e8ec83b5d4494cd1673f89e114, type: 3}
       propertyPath: encryptData
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6206658356321360435, guid: 5a8289e8ec83b5d4494cd1673f89e114, type: 3}
       propertyPath: m_Name

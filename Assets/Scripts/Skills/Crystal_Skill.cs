@@ -105,6 +105,7 @@ public class Crystal_Skill : Skill
         if (CanUseMultiCrystal())
             return;
 
+        //neu khong co crystal nao thi goi ham tao.
         if (currentCrystal == null)
         {
             CreateCrystal();
@@ -115,6 +116,7 @@ public class Crystal_Skill : Skill
             if (canMoveToEnemy)
                 return;
 
+            //dich chuyen nguoi choi ve vi tri crystal hien tai
             Vector2 playerPos = player.transform.position;
             player.transform.position = currentCrystal.transform.position;
             currentCrystal.transform.position = playerPos;
@@ -131,15 +133,19 @@ public class Crystal_Skill : Skill
         }
     }
 
+    //tao Crystal tai vi tri cua player
+    
     public void CreateCrystal()
     {
+       
         currentCrystal = Instantiate(crystalPrefab, player.transform.position, Quaternion.identity);
         Crystal_Skill_Controller currentCystalScript = currentCrystal.GetComponent<Crystal_Skill_Controller>();
-
+        //goi den ham Setup de lay gia tri cua crystal
         currentCystalScript.SetupCrystal(crystalDuration, canExplode, canMoveToEnemy, moveSpeed, FindClosestEnemy(currentCrystal.transform),player);
     }
 
     public void CurrentCrystalChooseRandomTarget() => currentCrystal.GetComponent<Crystal_Skill_Controller>().ChooseRandomEnemy();
+   //kiem tra su dung duoc nhieu Crystal
     private bool CanUseMultiCrystal()
     {
         if (canUseMultiStacks)
@@ -150,6 +156,7 @@ public class Crystal_Skill : Skill
                     Invoke("ResetAbility", useTimeWondow);
 
                 cooldown = 0;
+                //lay crystal cuoi cung trong list
                 GameObject crystalToSpawn = crystalLeft[crystalLeft.Count - 1];
                 GameObject newCrystal = Instantiate(crystalToSpawn, player.transform.position, Quaternion.identity);
 
@@ -158,6 +165,7 @@ public class Crystal_Skill : Skill
                 newCrystal.GetComponent<Crystal_Skill_Controller>().
                     SetupCrystal(crystalDuration, canExplode, canMoveToEnemy, moveSpeed, FindClosestEnemy(newCrystal.transform),player);
 
+                //neu het Crystal thi bat dau cooldown
                 if (crystalLeft.Count <= 0)
                 {
                     cooldown = multiStackCooldown;
@@ -182,7 +190,7 @@ public class Crystal_Skill : Skill
             crystalLeft.Add(crystalPrefab);
         }
     }
-
+    //reset skill ngay ca khi chi dung 1 crystal q
     private void ResetAbility()
     {
         if (cooldownTimer > 0)

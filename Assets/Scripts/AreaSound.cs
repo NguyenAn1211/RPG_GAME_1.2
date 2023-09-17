@@ -13,7 +13,7 @@ public class AreaSound : MonoBehaviour
             AudioManager.instance.PlaySFX(areaSoundIndex,null);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)  
     {
         if (collision.GetComponent<Player>() != null)
             AudioManager.instance.StopSFXWithTime(areaSoundIndex);
