@@ -46,6 +46,8 @@ public class Skill : MonoBehaviour
         // do some skill spesific things
     }
 
+
+    //tim ke dich gan nhat
     protected virtual Transform FindClosestEnemy(Transform _checkTransform)
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(_checkTransform.position, 25);
@@ -57,8 +59,9 @@ public class Skill : MonoBehaviour
         {
             if (hit.GetComponent<Enemy>() != null)
             {
+                //tinh toan khoang cach den moi ke dich nam trong list
                 float distanceToEnemy = Vector2.Distance(_checkTransform.position, hit.transform.position);
-
+                //tim khoang cach ngan nhat
                 if (distanceToEnemy < closestDistance)
                 {
                     closestDistance = distanceToEnemy;

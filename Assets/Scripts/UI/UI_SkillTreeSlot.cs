@@ -45,6 +45,9 @@ public class UI_SkillTreeSlot : MonoBehaviour , IPointerEnterHandler , IPointerE
 
     public void UnlockSkillSlot()
     {
+        if (unlocked)
+            return;
+
         if (PlayerManager.instance.HaveEnoughMoney(skillCost) == false)
             return;
 

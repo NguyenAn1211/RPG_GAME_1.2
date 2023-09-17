@@ -10,7 +10,7 @@ public class FileDataHandler
     private string dataFileName = "";
 
     private bool encryptData = false;
-    private string codeWord = "alexdev";
+    private string codeWord = "annguyen";
 
 
     public FileDataHandler(string _dataDirPath, string _dataFileName,bool _encryptData)
@@ -44,7 +44,7 @@ public class FileDataHandler
 
         catch(Exception e)
         {
-            Debug.LogError("Error on trying to save data to file: " + fullPath + "\n" + e);
+            Debug.LogError("Có lỗi trong khi lưu vào file: " + fullPath + "\n" + e);
         }
     }
 
@@ -74,7 +74,7 @@ public class FileDataHandler
             }
             catch (Exception e)
             {
-                Debug.LogError("Error on trying to load data from file:" + fullPath + "\n" + e);
+                Debug.LogError("Có lỗi khi Load dữ liệu :" + fullPath + "\n" + e);
             }
         }
         

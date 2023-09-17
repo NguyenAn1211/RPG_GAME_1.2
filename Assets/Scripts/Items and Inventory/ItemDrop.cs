@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +11,7 @@ public class ItemDrop : MonoBehaviour
 
     public virtual void GenerateDrop()
     {
-        if (dropList.Count <= 0)
+        if (possibleDrop.Length <= 0)
             return;
 
         for (int i = 0; i < possibleDrop.Length; i++)
@@ -24,10 +23,16 @@ public class ItemDrop : MonoBehaviour
 
         for (int i = 0; i < possibleItemDrop; i++)
         {
-            ItemData randomItem = dropList[Random.Range(0,dropList.Count - 1)];
 
-            dropList.Remove(randomItem);
-            DropItem(randomItem);
+            if (dropList.Count <= 0)
+                return;
+            
+                ItemData randomItem = dropList[Random.Range(0, dropList.Count - 1)];
+
+                dropList.Remove(randomItem);
+                DropItem(randomItem);
+
+            
         }
     }
 
