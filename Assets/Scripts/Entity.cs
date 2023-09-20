@@ -95,6 +95,7 @@ public class Entity : MonoBehaviour
     {
 
     }
+   
 
     #region Velocity
     public void SetZeroVelocity()
@@ -116,6 +117,8 @@ public class Entity : MonoBehaviour
     #endregion
     #region Collision
     public virtual bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
+    //Physics2D.BoxCast(cd.bounds.center, cd.bounds.size, 0, Vector2.down, 0.1f, whatIsGround);
+    //
     public virtual bool IsWallDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
 
     protected virtual void OnDrawGizmos()

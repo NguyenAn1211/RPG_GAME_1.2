@@ -383,10 +383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Blackhole
-  skillDescription: 'You trap enemies in a blackhole which allows you to do tons
-    of damage.
-
-'
+  skillDescription: "T\u1EA1o ra m\u1ED9t h\u1ED1 \u0111en nh\u1ED1t k\u1EBB \u0111\u1ECBch
+    b\xEAn trong r\u1ED3i g\xE2y s\xE1t th\u01B0\u01A1ng "
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -773,7 +771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: "C\xC0I \u0110\u1EB6T"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -782,8 +780,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286430871
+  m_fontColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1174,10 +1172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Mirage blink
-  skillDescription: 'You leave your mirage instead of you when you blink.
-
-    [Only
-    one crystal upgrade can be choosen]'
+  skillDescription: "\u0110\u1EC3 l\u1EA1i ph\xE2n th\xE2n sau khi d\u1ECBch chuy\u1EC3n\n[Ch\u1EC9
+    c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i \u0111\u1EC3 n\xE2ng c\u1EA5p]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -1429,7 +1425,7 @@ MonoBehaviour:
   statType: 9
   statValueText: {fileID: 47069034}
   statNameText: {fileID: 589610721}
-  statDescription: Increases you chance to avoid attack.
+  statDescription: "Kh\u1EA3 n\u0103ng n\xE9 tr\xE1nh c\u1EE7a nh\xE2n v\u1EADt"
 --- !u!222 &47069036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1473,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.057, y: -32.2928}
+  m_AnchoredPosition: {x: 40, y: 122}
   m_SizeDelta: {x: 1137.6865, y: 612.1334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &56013358
@@ -1517,17 +1513,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You died!
+  m_text: YOU DIED
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
-  m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0506823460bbee46aff8a0ba4815b33, type: 2}
+  m_sharedMaterial: {fileID: -7379283409158823769, guid: b0506823460bbee46aff8a0ba4815b33, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1544,8 +1540,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 118.33
+  m_fontSizeBase: 118.33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2613,10 +2609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Bullet sword
-  skillDescription: 'Sword can peirce targets.
-
-    [Only one sword upgrade can be
-    choose]'
+  skillDescription: "Ki\u1EBFm c\xF3 th\u1EC3 \u0111\xE2m qua nhi\u1EC1u k\u1EBB
+    \u0111\u1ECBch\n[Ch\u1EC9 c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i n\xE2ng c\u1EA5p]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -3165,8 +3159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Crystal mirage
-  skillDescription: "You create crystal instead of mirage. \nWith all it's qualites.\n[Only
-    one upgrade can be choosen]"
+  skillDescription: "T\u1EA1o ra m\u1ED9t vi\xEAn Pha l\xEA thay v\xEC ph\xE2n th\xE2n\nV\u1EABn
+    c\xF3 ho\xE0n to\xE0n c\xE1c ch\u1EC9 s\u1ED1 c\u1EE7a ph\xE2n th\xE2n\n[Ch\u1EC9
+    c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i n\xE2ng c\u1EA5p]]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -3754,7 +3749,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: "C\xC0I \u0110\u1EB6T"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -4660,7 +4655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1195560129}
-  currency: 10
+  currency: 1000
 --- !u!4 &273800613
 Transform:
   m_ObjectHideFlags: 0
@@ -4733,7 +4728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Inventory
+  m_text: "KHO \u0110\u1ED2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -4844,10 +4839,10 @@ RectTransform:
   - {fileID: 1558901045}
   m_Father: {fileID: 2037099047}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &277510235
 MonoBehaviour:
@@ -4925,7 +4920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Increases damage and crit.power.
+  m_text: "T\u0103ng s\xE1t th\u01B0\u01A1ng v\xE0 ch\xED m\u1EA1ng"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -5055,10 +5050,10 @@ RectTransform:
   - {fileID: 1172069447}
   m_Father: {fileID: 2037099047}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 350, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289054208
 MonoBehaviour:
@@ -5257,7 +5252,7 @@ Transform:
   m_GameObject: {fileID: 295805107}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.26, z: 0}
+  m_LocalPosition: {x: -0.105, y: -1.275, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5407,7 +5402,7 @@ MonoBehaviour:
   statType: 7
   statValueText: {fileID: 302029602}
   statNameText: {fileID: 780947617}
-  statDescription: Amount of amximum health you have.
+  statDescription: "M\xE1u t\u1ED1i \u0111a c\u1EE7a nh\xE2n v\u1EADt"
 --- !u!222 &302029604
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5560,7 +5555,7 @@ MonoBehaviour:
   statType: 5
   statValueText: {fileID: 302360516}
   statNameText: {fileID: 1620965137}
-  statDescription: Chance to do critical damage.
+  statDescription: "Kh\u1EA3 n\u0103ng ch\xED m\u1EA1ng"
 --- !u!222 &302360518
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6122,7 +6117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Multiple distruction
-  skillDescription: You can create up to 3 crystal at a time.
+  skillDescription: "T\u1EA1o ra 3 vi\xEAn \u0110\xE1 c\xF9ng m\u1ED9t l\xFAc"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -6469,9 +6464,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -6516,7 +6511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7001,7 +6996,7 @@ MonoBehaviour:
   statType: 11
   statValueText: {fileID: 400809672}
   statNameText: {fileID: 722860828}
-  statDescription: Amount of fire damage you do.
+  statDescription: "T\u1ED5ng s\xE1t th\u01B0\u01A1ng l\u1EEDa g\xE2y ra"
 --- !u!222 &400809674
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7067,7 +7062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Craft
+  m_text: "CH\u1EBE T\u1EA0O"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -8718,7 +8713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Try again!
+  m_text: "Th\u1EED l\u1EA1i"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8745,8 +8740,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8929,7 +8924,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Craft
+  m_text: "CH\u1EBE T\u1EA0O"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -9006,95 +9001,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507629782}
   m_CullTransparentMesh: 1
---- !u!1001 &510869074
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5413061283461557538, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283461557538, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13.3256645
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.1101618
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: hitFx
-      value: 
-      objectReference: {fileID: 4431538376159538090, guid: 2f387d67210ae6246b602d015d7b9968, type: 3}
-    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: chillFx
-      value: 
-      objectReference: {fileID: 3038427717818873341, guid: 406035b4affc86141acb6b2db90f9cbd, type: 3}
-    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: shockFx
-      value: 
-      objectReference: {fileID: 3376266647829427752, guid: 5ee4612ebbfdefb488b04fed763655b1, type: 3}
-    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: igniteFx
-      value: 
-      objectReference: {fileID: 8391695977692023482, guid: 283d3449409af034e8c3ee7513141f6e, type: 3}
-    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: criticalHitFx
-      value: 
-      objectReference: {fileID: 3347290265377545998, guid: b74d5da7ef04de04099c0144d41367ce, type: 3}
-    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: popUpTextPrefab
-      value: 
-      objectReference: {fileID: 2894285104381243520, guid: 4b0d5792d42704c4bb5071d4a04d11b2, type: 3}
-    - target: {fileID: 5413061283600725300, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
-      propertyPath: m_Name
-      value: Enemy_Skeleton
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
 --- !u!1 &514710780
 GameObject:
   m_ObjectHideFlags: 0
@@ -15142,7 +15048,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skill tree
+  m_text: "K\u1EF8 N\u0102NG"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -15151,8 +15057,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286430871
+  m_fontColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16284,7 +16190,7 @@ MonoBehaviour:
   statType: 4
   statValueText: {fileID: 659417544}
   statNameText: {fileID: 407467708}
-  statDescription: Amount of physial damage you do.
+  statDescription: "T\u1ED5ng s\xE1t th\u01B0\u01A1ng v\u1EADt l\xFD g\xE2y ra"
 --- !u!222 &659417546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16567,7 +16473,7 @@ MonoBehaviour:
   statType: 3
   statValueText: {fileID: 706274392}
   statNameText: {fileID: 587471648}
-  statDescription: Increases health.
+  statDescription: "T\u0103ng m\xE1u"
 --- !u!222 &706274394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16610,7 +16516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Sword Throw
-  skillDescription: Throws sword into the enemy.
+  skillDescription: "N\xE9m ki\u1EBFm v\u1EC1 ph\xEDa \u0111\u1ECBch"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked: []
@@ -16915,7 +16821,7 @@ GameObject:
   - component: {fileID: 716669080}
   - component: {fileID: 716669079}
   m_Layer: 5
-  m_Name: SkillTreeSlot_UI - Dash - "Here I am"
+  m_Name: SkillTreeSlot_UI - Dash - LEVEL 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16934,8 +16840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillCost: 0
-  skillName: Dash - "Here I am"
-  skillDescription: You leave mirage when you dash.
+  skillName: Dash - LEVEL 2
+  skillDescription: "\u0110\u1EC3 l\u1EA1i ph\xE2n th\xE2n khi l\u01B0\u1EDBt."
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -17852,7 +17758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.1000061, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &757296009
@@ -17875,7 +17781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Craft
+  m_text: "CH\u1EBE T\u1EA0O"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -17884,8 +17790,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286430871
+  m_fontColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -18280,7 +18186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Dodge
-  skillDescription: You getting 10% of a evasion.
+  skillDescription: "T\u0103ng 10% n\xE9 tr\xE2nh"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked: []
@@ -19123,7 +19029,7 @@ MonoBehaviour:
   statType: 2
   statValueText: {fileID: 838630962}
   statNameText: {fileID: 2033695499}
-  statDescription: Increases magical damage and resistance.
+  statDescription: "T\u0103ng s\xE1t th\u01B0\u01A1ng ph\xE9p v\xE0 kh\xE1ng kh\xE9p"
 --- !u!222 &838630964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19189,7 +19095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: "C\xC0I \u0110\u1EB6T"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -19609,7 +19515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &857688075
 Transform:
   m_ObjectHideFlags: 0
@@ -19885,7 +19791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Parry with a mirage
-  skillDescription: You create a clone with succsesful parry.
+  skillDescription: "T\u1EA1o ph\xE2n th\xE2n khi \u0111\u1EE1 th\xE0nh c\xF4ng"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -20231,7 +20137,7 @@ GameObject:
   - component: {fileID: 906494717}
   - component: {fileID: 906494716}
   m_Layer: 5
-  m_Name: SkillTreeSlot_UI - Dash - "Actually here I am"
+  m_Name: SkillTreeSlot_UI - Dash - LEVEL 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20343,8 +20249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillCost: 0
-  skillName: Dash - "Actually here I am"
-  skillDescription: You create mirage at your arrival.
+  skillName: Dash - LEVEL 3
+  skillDescription: "T\u1EA1o ph\xE2n th\xE2n t\u1EA1i n\u01A1i b\u1EA1n \u0111\u1EBFn"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -21099,9 +21005,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Explosion
-  skillDescription: 'Crystal can explode.
-
-    [Only one crystal upgrade can be choosen]'
+  skillDescription: "\u0110\xE1 ma thu\u1EADt s\u1EBD ph\xE1t n\u1ED5 v\xE0 g\xE2y
+    s\xE1t th\u01B0\u01A1ng ph\xE9p\n[Ch\u1EC9 c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i
+    n\xE2ng c\u1EA5p]]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -21243,10 +21149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Aggresive mirage
-  skillDescription: 'Your mirage has 80% of your damage.
-
-    Your mirage can apply
-    on hit effects.'
+  skillDescription: "Ph\xE2n th\xE2n c\u1EE7a b\u1EA1n t\u0103ng 80% t\u1ED5ng s\xE1t
+    th\u01B0\u01A1ng c\u1EE7a b\u1EA1n.\nPh\xE2n th\xE2n gi\u1EDD s\u1EBD c\xF3 hi\u1EC7u
+    \u1EE9ng \u0111\xF2n \u0111\xE1nh"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -22236,7 +22141,7 @@ MonoBehaviour:
   statType: 6
   statValueText: {fileID: 1029305962}
   statNameText: {fileID: 722907571}
-  statDescription: Increases power of your critical attack
+  statDescription: "S\xE1t th\u01B0\u01A1ng ch\xED m\u1EA1ng"
 --- !u!222 &1029305964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22390,7 +22295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1037633884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22805,7 +22710,7 @@ MonoBehaviour:
   statType: 8
   statValueText: {fileID: 1069575682}
   statNameText: {fileID: 292008233}
-  statDescription: Decreases phyisal damage you take.
+  statDescription: "Gi\u1EA3m s\xE1t th\u01B0\u01A1ng v\u1EADt l\xFD "
 --- !u!222 &1069575684
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24154,11 +24059,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.98
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.63
+      value: -2.8
       objectReference: {fileID: 0}
     - target: {fileID: 5413061283600725296, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24192,13 +24097,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
+      propertyPath: hitFx
+      value: 
+      objectReference: {fileID: 4431538376159538090, guid: 2f387d67210ae6246b602d015d7b9968, type: 3}
+    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
+      propertyPath: chillFx
+      value: 
+      objectReference: {fileID: 3038427717818873341, guid: 406035b4affc86141acb6b2db90f9cbd, type: 3}
+    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
+      propertyPath: shockFx
+      value: 
+      objectReference: {fileID: 3376266647829427752, guid: 5ee4612ebbfdefb488b04fed763655b1, type: 3}
+    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
+      propertyPath: igniteFx
+      value: 
+      objectReference: {fileID: 8391695977692023482, guid: 283d3449409af034e8c3ee7513141f6e, type: 3}
+    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
+      propertyPath: criticalHitFx
+      value: 
+      objectReference: {fileID: 3347290265377545998, guid: b74d5da7ef04de04099c0144d41367ce, type: 3}
+    - target: {fileID: 5413061283600725297, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
+      propertyPath: popUpTextPrefab
+      value: 
+      objectReference: {fileID: 2894285104381243520, guid: 4b0d5792d42704c4bb5071d4a04d11b2, type: 3}
     - target: {fileID: 5413061283600725300, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
       propertyPath: m_Name
       value: Enemy_Skeleton
       objectReference: {fileID: 0}
     - target: {fileID: 5413061283600725300, guid: c1a2356bb51a6194d985ea5b453dfdfb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24249,10 +24178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Controlled destruction
-  skillDescription: 'Crystal moves towards the enemy.
-
-    You can no longer teleport
-    to crystal.'
+  skillDescription: "\u0110\xE1 ma thu\u1EADt t\u1EF1 \u0111i chuy\u1EC3n v\u1EC1
+    ph\xEDa k\u1EBB \u0111\u1ECBch\nNH\u01AFNG b\u1EA1n s\u1EBD kh\xF4ng d\u1ECBch
+    chuy\u1EC3n \u0111\u1EBFn n\xF3 n\u1EEFa"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -29313,7 +29241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Major stats
+  m_text: "CH\u1EC8 S\u1ED0 CH\xCDNH"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -29447,7 +29375,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Show health bar avobe player
+  m_text: "Hi\u1EC7n thanh m\xE1u \u1EDF tr\xEAn \u0111\u1EA7u nh\xE2n v\u1EADt"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -30507,7 +30435,7 @@ MonoBehaviour:
   attackCheck: {fileID: 525414668}
   attackCheckRadius: 0.8
   groundCheck: {fileID: 295805108}
-  groundCheckDistance: 0.15
+  groundCheckDistance: 0.49
   wallCheck: {fileID: 573650067}
   wallCheckDistance: 0.05
   whatIsGround:
@@ -31005,7 +30933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Character
+  m_text: "NH\xC2N V\u1EACT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -35612,7 +35540,7 @@ MonoBehaviour:
   - {fileID: 195938302}
   - {fileID: 1977431622}
   - {fileID: 447265738}
-  playBgm: 0
+  playBgm: 1
 --- !u!4 &1224825925
 Transform:
   m_ObjectHideFlags: 0
@@ -35991,7 +35919,7 @@ MonoBehaviour:
   statType: 0
   statValueText: {fileID: 1233174559}
   statNameText: {fileID: 459219130}
-  statDescription: Increased damage and critical power.
+  statDescription: "t\u0103ng s\xE1t th\u01B0\u01A1ng v\xE0 ch\xED m\u1EA1ng"
 --- !u!222 &1233174561
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36261,7 +36189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 1500
   skillName: Vulnerability
-  skillDescription: Enemy hit by sword , takes 10% more damage.
+  skillDescription: "K\u1EBB d\u1ECBch b\u1ECB n\xE9m s\u1EBD nh\u1EADn th\xEAm 10%
+    s\xE1t th\u01B0\u01A1ng t\u1EEB m\u1ECDi ngu\u1ED3n"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -36333,7 +36262,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Equipment
+  m_text: "TRANG B\u1ECA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -36714,12 +36643,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Multiple mirage
-  skillDescription: 'Your  mirage has 30% of your attack.
-
-    Your mirgae can spawn
-    another mirage.
-
-    [Only one upgrade can be choosen]'
+  skillDescription: "Ph\xE2n th\xE2n c\u1EE7a b\u1EA1n t\u0103ng 30% t\u1ED5ng s\xE1t
+    th\u01B0\u01A1ng c\u1EE7a b\u1EA1n\nPh\xE2n th\xE2n c\xF3 th\u1EC3 t\u1EA1o ra
+    m\u1ED9t ph\xE2n th\xE2n kh\xE1c\n[Ch\u1EC9 c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i
+    n\xE2ng c\u1EA5p]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -42542,7 +42469,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skill tree
+  m_text: "K\u1EF8 N\u0102NG"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -42681,7 +42608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Character
+  m_text: "NH\xC2N V\u1EACT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -43243,10 +43170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Bouncy sword
-  skillDescription: 'Sword can boucne beetwen targets.
-
-    [Only one sword upgrade
-    can be choose]'
+  skillDescription: "Ki\u1EBFm c\xF3 th\xEA n\u1EA3y qua nhi\u1EC1u m\u1EE5c ti\xEAu\n[Ch\u1EC9
+    c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i n\xE2ng c\u1EA5p]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -43712,10 +43637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Chain saw sword
-  skillDescription: 'Sword will spin like a chain saw.
-
-    [Only one sword upgrade
-    can be choose]'
+  skillDescription: "Ki\u1EBFm s\u1EBD xoay tr\xF2n t\u1EA1i v\u1ECB tr\xED n\xE9m
+    ra\n[Ch\u1EC9 c\xF3 th\u1EC3 ch\u1ECDn 1 lo\u1EA1i n\xE2ng c\u1EA5p]"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -43893,10 +43816,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Crystal
-  skillDescription: 'You create magic crystal that does magic damage.
-
-    By clickinb
-    ability again , you can teleport to your crystal.'
+  skillDescription: "T\u1EA1o ra m\u1ED9t vi\xEAn \u0110\xE1 ma thu\u1EADt g\xE2y
+    s\xE1t th\u01B0\u01A1ng ph\xE9p\nB\u1EA5m l\u1EA1i k\u1EF9 n\u0103ng l\u1EA7n
+    n\u1EEFa \u0111\u1EC3 d\u1ECBch chuy\u1EC3n v\u1EC1 v\u1ECB tr\xED c\u1EE7a vi\xEAn
+    \u0111\xE1"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked: []
@@ -44312,6 +44235,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
   - {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
   - {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
+  - {fileID: 11400000, guid: b1342fd16e2c376479833731e2df12f3, type: 2}
   - {fileID: 11400000, guid: b1342fd16e2c376479833731e2df12f3, type: 2}
   - {fileID: 11400000, guid: b1342fd16e2c376479833731e2df12f3, type: 2}
   - {fileID: 11400000, guid: b1342fd16e2c376479833731e2df12f3, type: 2}
@@ -44843,7 +44767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Dodge mirage
-  skillDescription: You can create mirage on dodge.
+  skillDescription: "T\u1EA1o ra ph\xE2n th\xE2n khi n\xE9 tr\xE1nh"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -45269,7 +45193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAVE & EXIT
+  m_text: "L\u01AFU & THO\xC1T"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -51077,7 +51001,7 @@ MonoBehaviour:
   statType: 10
   statValueText: {fileID: 1589636759}
   statNameText: {fileID: 528510730}
-  statDescription: Decreases magical damage you take.
+  statDescription: "Gi\u1EA3m s\xE1t th\u01B0\u01A1ng ph\xE9p"
 --- !u!222 &1589636761
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51164,7 +51088,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -51210,7 +51134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -51379,7 +51303,7 @@ MonoBehaviour:
   statType: 1
   statValueText: {fileID: 1609836478}
   statNameText: {fileID: 841175036}
-  statDescription: Increases evasion and critical chance.
+  statDescription: "T\u0103ng n\xE9 tr\xE1nh v\xE0 kh\u1EA3 n\u0103ng tr\xED m\u1EA1ng"
 --- !u!222 &1609836480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -52198,7 +52122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sound effect
+  m_text: "HI\u1EC6U \u1EE8NG \xC2M THANH"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -52460,7 +52384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Parry
-  skillDescription: You can parry attack to avoid damage.
+  skillDescription: "B\u1EA1n c\xF3 th\u1EC3 \u0111\u1EE1 \u0111\xF2n"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked: []
@@ -52779,7 +52703,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Offensive stats
+  m_text: "CH\u1EC8 S\xD4 T\u1EA4N C\xD4NG"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -52913,7 +52837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skill tree
+  m_text: "K\u1EF8 N\u0102NG"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -53024,10 +52948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Dash
-  skillDescription: 'You can dash to avoid attacks.
-
-    You are invincible in the
-    time of dash.'
+  skillDescription: "B\u1EA1n c\xF3 th\u1EC3 l\u01B0\u1EDBt \u0111\u1EC3 n\xE9 \u0111\xF2n.\nB\u1EA1n
+    s\u1EBD b\u1EA5t t\u1EED trong l\xFAc l\u01B0\u1EDBt"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked: []
@@ -53855,7 +53777,7 @@ MonoBehaviour:
   statType: 13
   statValueText: {fileID: 1741819262}
   statNameText: {fileID: 349445627}
-  statDescription: Amount of lighting damage you do.
+  statDescription: "T\u1ED5ng s\xE1t th\u01B0\u01A1ng \u0111i\u1EC7n g\xE2y ra"
 --- !u!222 &1741819264
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54133,7 +54055,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 500
   skillName: Time stop
-  skillDescription: When enemy hit by sword, his time stops.
+  skillDescription: "K\u1EBB \u0111\u1ECBch s\u1EBD \u0111\u1EE9ng im khi b\u1ECB
+    ki\u1EBFm n\xE9m tr\xFAng"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -55361,7 +55284,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Defensive stats
+  m_text: "CH\xCD S\u1ED0 PH\xD2NG TH\u1EE6"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -55741,10 +55664,10 @@ RectTransform:
   - {fileID: 1911577464}
   m_Father: {fileID: 2037099047}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 150, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1912837637
 MonoBehaviour:
@@ -56118,10 +56041,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Time mirage
-  skillDescription: 'Your mirage can attack targets.
-
-    Your mirage has 30% of
-    your damage.'
+  skillDescription: "Ph\xE2n th\xE2n c\u1EE7a b\u1EA1n g\xE2y s\xE1t th\u01B0\u01A1ng
+    l\xEAn k\u1EBB \u0111\u1ECBch\u0111\u1ECBch\nPh\xE2n th\xE2n c\u1EE7a b\u1EA1n
+    t\u0103ng 30% t\u1ED5ng s\xE1t th\u01B0\u01A1ng c\u1EE7a b\u1EA1n"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked: []
@@ -56289,7 +56211,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -56335,7 +56257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5921569, g: 0.74509805, b: 0.4901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -56417,7 +56339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Background music
+  m_text: "NH\u1EA0C N\u1EC0N"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -58465,7 +58387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillCost: 0
   skillName: Restore with parry
-  skillDescription: You restore a bit of health with succsesful parry.
+  skillDescription: "H\u1ED3i m\u1ED9t ch\xFAt m\xE1u n\u1EBFu \u0111\u1EE1 th\xE0nh
+    c\xF4ng"
   lockedSkillColor: {r: 0.49056602, g: 0.40957633, b: 0.40957633, a: 1}
   unlocked: 0
   shouldBeUnlocked:
@@ -58721,7 +58644,7 @@ MonoBehaviour:
   statType: 12
   statValueText: {fileID: 2123909718}
   statNameText: {fileID: 156635121}
-  statDescription: Amount of ice damage you do.
+  statDescription: "T\u1ED5ng s\xE1t th\u01B0\u01A1ng b\u0103ng g\xE2y ra"
 --- !u!222 &2123909720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -58926,7 +58849,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Character
+  m_text: "NH\xC2N V\u1EACT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -59130,7 +59053,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -59183,7 +59106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skill tree
+  m_text: "K\u1EF8 N\u0102NG"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -59298,7 +59221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1290535682618644357, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1290535682618644414, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
       propertyPath: m_RootOrder
@@ -59306,11 +59229,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1290535682618644414, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.25
+      value: 17.36
       objectReference: {fileID: 0}
     - target: {fileID: 1290535682618644414, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.59
+      value: -0.73
       objectReference: {fileID: 0}
     - target: {fileID: 1290535682618644414, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -59524,11 +59447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3525408569785757198, guid: 470f8bf2ff8447f4ea80d769a3c24ae3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.51
+      value: 38.7
       objectReference: {fileID: 0}
     - target: {fileID: 3525408569785757198, guid: 470f8bf2ff8447f4ea80d769a3c24ae3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.28
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 3525408569785757198, guid: 470f8bf2ff8447f4ea80d769a3c24ae3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -59576,7 +59499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3525408569785757239, guid: 470f8bf2ff8447f4ea80d769a3c24ae3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60056,7 +59979,7 @@ RectTransform:
   m_Father: {fileID: 4040031580023279300}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000061035156, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -60152,7 +60075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4040031580290300181
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60361,10 +60284,10 @@ RectTransform:
   - {fileID: 339165915}
   m_Father: {fileID: 2037099047}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4040031580831234594
 MonoBehaviour:
@@ -60575,7 +60498,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Craft
+  m_text: "CH\u1EBE TAO"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -60657,7 +60580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -60702,7 +60625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Character
+  m_text: "NH\xC2N V\u1EACT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -60711,8 +60634,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286430871
+  m_fontColor: {r: 0.5921569, g: 0.74509805, b: 0.49019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -60859,7 +60782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5529630772379239632, guid: ed803d54e06511f4e8d3a86dc8f21df9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5529630772379239639, guid: ed803d54e06511f4e8d3a86dc8f21df9, type: 3}
       propertyPath: moveSpeed
@@ -61209,7 +61132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7546619776816806368, guid: 9d312431d24ade14da63b0e9ec620ca8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7546619776816806393, guid: 9d312431d24ade14da63b0e9ec620ca8, type: 3}
       propertyPath: m_RootOrder
@@ -61217,11 +61140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7546619776816806393, guid: 9d312431d24ade14da63b0e9ec620ca8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.96
+      value: 41.12
       objectReference: {fileID: 0}
     - target: {fileID: 7546619776816806393, guid: 9d312431d24ade14da63b0e9ec620ca8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.58
+      value: -2.94
       objectReference: {fileID: 0}
     - target: {fileID: 7546619776816806393, guid: 9d312431d24ade14da63b0e9ec620ca8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -61413,7 +61336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: "C\xC0I \u0110\u1EB6T"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
   m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
@@ -61683,4 +61606,3 @@ SceneRoots:
   - {fileID: 225532343}
   - {fileID: 482549349}
   - {fileID: 1079837735}
-  - {fileID: 510869074}

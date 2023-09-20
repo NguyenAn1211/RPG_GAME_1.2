@@ -46,7 +46,7 @@ public class UI : MonoBehaviour, ISaveManager
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.C))
             SwitchWithKeyTo(charcaterUI);
 
         if (Input.GetKeyDown(KeyCode.B))
@@ -56,7 +56,7 @@ public class UI : MonoBehaviour, ISaveManager
         if (Input.GetKeyDown(KeyCode.K))
             SwitchWithKeyTo(skillTreeUI);
 
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.O) || Input.GetKeyDown(KeyCode.Escape))
             SwitchWithKeyTo(optionsUI);
 
        
