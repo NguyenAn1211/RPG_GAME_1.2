@@ -9534,10 +9534,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1290535682618644353, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
-      propertyPath: shockStrikePrefab
+    - target: {fileID: 1290535682618644356, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
+      propertyPath: arena
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1079837734}
     - target: {fileID: 1290535682618644357, guid: 877781d8660980f49a831a6c3e0dbaff, type: 3}
       propertyPath: m_Name
       value: Enemy_DeathBringer
@@ -22744,7 +22744,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1037633884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23371,7 +23371,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.3023815, y: -1.6669827}
+  m_Offset: {x: 11.549938, y: -1.6669827}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -23382,7 +23382,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 31.37265, y: 16.142426}
+  m_Size: {x: 41.86776, y: 16.142426}
   m_EdgeRadius: 0
 --- !u!4 &1079837735
 Transform:
@@ -23393,7 +23393,7 @@ Transform:
   m_GameObject: {fileID: 1079837733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.916632, y: 2.1761715, z: -0.20150971}
+  m_LocalPosition: {x: 86.41, y: 2.1761715, z: -0.20150971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67099,7 +67099,7 @@ MonoBehaviour:
     m_AmplitudeGain: 1
     m_FrequencyGain: 1
     m_Duration: 1
-    m_NoiseOffsets: {x: 0, y: 0, z: 0}
+    m_NoiseOffsets: {x: 286.03406, y: 162.10165, z: 341.26852}
 --- !u!1 &1838090057
 GameObject:
   m_ObjectHideFlags: 0
@@ -73429,7 +73429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6206658356321360434, guid: 5a8289e8ec83b5d4494cd1673f89e114, type: 3}
       propertyPath: encryptData
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6206658356321360435, guid: 5a8289e8ec83b5d4494cd1673f89e114, type: 3}
       propertyPath: m_Name

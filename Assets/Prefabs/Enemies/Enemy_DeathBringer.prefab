@@ -5242,7 +5242,7 @@ MonoBehaviour:
   isChilled: 0
   isShocked: 0
   ailmentsDuration: 4
-  shockStrikePrefab: {fileID: 3376266647829427749, guid: 5ee4612ebbfdefb488b04fed763655b1, type: 3}
+  shockStrikePrefab: {fileID: 0}
   currentHealth: 0
   soulsDropAmount:
     baseValue: 0
