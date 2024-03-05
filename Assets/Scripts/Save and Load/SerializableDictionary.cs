@@ -1,37 +1,54 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Xml;
+using System.Xml.Schema;
+using System.Xml.Serialization;
 
-[System.Serializable]
-public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue> , ISerializationCallbackReceiver
+[XmlRoot("dictionary")]
+public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, IXmlSerializable
 {
-    [SerializeField] private List<TKey> keys = new List<TKey>();
-    [SerializeField] private List<TValue> values = new List<TValue>();
+    public XmlSchema GetSchema() { return null; }
 
-    public void OnBeforeSerialize()
+    public void ReadXml(XmlReader reader)
     {
-        keys.Clear();
-        values.Clear();
+        reader.Read();
 
-        foreach (KeyValuePair<TKey,TValue> pair in this)
+        while (reader.NodeType != XmlNodeType.EndElement)
         {
-            keys.Add(pair.Key);
-            values.Add(pair.Value);
-        }
-    }
-    public void OnAfterDeserialize()
-    {
-        this.Clear();
+            reader.ReadStartElement("item");
 
-        if (keys.Count != values.Count)
-        {
-            Debug.Log("Keys count is not equal to values count");
+            reader.ReadStartElement("key");
+            TKey key = (TKey)new XmlSerializer(typeof(TKey)).Deserialize(reader);
+            reader.ReadEndElement();
+
+            reader.ReadStartElement("value");
+            TValue value = (TValue)new XmlSerializer(typeof(TValue)).Deserialize(reader);
+            reader.ReadEndElement();
+
+            reader.ReadEndElement();
+
+            this.Add(key, value);
+            reader.MoveToContent();
         }
 
-        for (int i = 0; i < keys.Count; i++)
-        {
-            this.Add(keys[i], values[i]);
-        }
+        reader.ReadEndElement();
     }
 
+    public void WriteXml(XmlWriter writer)
+    {
+        foreach (TKey key in this.Keys)
+        {
+            writer.WriteStartElement("item");
+
+            writer.WriteStartElement("key");
+            new XmlSerializer(typeof(TKey)).Serialize(writer, key);
+            writer.WriteEndElement();
+
+            writer.WriteStartElement("value");
+            new XmlSerializer(typeof(TValue)).Serialize(writer, this[key]);
+            writer.WriteEndElement();
+
+            writer.WriteEndElement();
+        }
+    }
 }

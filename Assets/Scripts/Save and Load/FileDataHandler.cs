@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
+using System.Xml.Serialization;
 
-public class FileDataHandler 
+
+
+public class FileDataHandler
 {
     private string dataDirPath = "";
     private string dataFileName = "";
-
     private bool encryptData = false;
-    private string codeWord = "annguyen";
+    private string codeWord = "annguyen"; // Khóa mã hóa
 
-
-    public FileDataHandler(string _dataDirPath, string _dataFileName,bool _encryptData)
+    public FileDataHandler(string _dataDirPath, string _dataFileName, bool _encryptData = false)
     {
         dataDirPath = _dataDirPath;
         dataFileName = _dataFileName;
@@ -22,72 +23,96 @@ public class FileDataHandler
 
     public void Save(GameData _data)
     {
-        string fullPath = Path.Combine(dataDirPath, dataFileName);
+        string fullPath = Path.Combine(dataDirPath, dataFileName + ".xml");
 
         try
         {
             Directory.CreateDirectory(Path.GetDirectoryName(fullPath));
 
-            string dataToStore = JsonUtility.ToJson(_data, true);
-
-            if (encryptData)
-                dataToStore = EncryptDecrypt(dataToStore);
+            // Serialize object to XML
+            XmlSerializer serializer = new XmlSerializer(typeof(GameData));
 
             using (FileStream stream = new FileStream(fullPath, FileMode.Create))
             {
-                using(StreamWriter writer = new StreamWriter(stream))
-                {
-                    writer.Write(dataToStore);
-                }
+                serializer.Serialize(stream, _data);
+            }
+
+            if (encryptData)
+            {
+                EncryptFile(fullPath);
             }
         }
-
-        catch(Exception e)
+        catch (Exception e)
         {
-            Debug.LogError("Có lỗi trong khi lưu vào file: " + fullPath + "\n" + e);
+            Debug.LogError("Error while saving to file: " + fullPath + "\n" + e);
         }
     }
 
     public GameData Load()
     {
-        string fullPath = Path.Combine(dataDirPath, dataFileName);
+        string fullPath = Path.Combine(dataDirPath, dataFileName + ".xml");
         GameData loadData = null;
 
         if (File.Exists(fullPath))
         {
             try
             {
-                string dataToLoad = "";
+                if (encryptData)
+                {
+                    DecryptFile(fullPath);
+                }
+
+                // Deserialize XML to object
+                XmlSerializer serializer = new XmlSerializer(typeof(GameData));
 
                 using (FileStream stream = new FileStream(fullPath, FileMode.Open))
                 {
-                    using (StreamReader reader = new StreamReader(stream))
-                    {
-                        dataToLoad = reader.ReadToEnd();
-                    }
+                    loadData = serializer.Deserialize(stream) as GameData;
                 }
-
-                if (encryptData)
-                    dataToLoad = EncryptDecrypt(dataToLoad);
-
-                loadData = JsonUtility.FromJson<GameData>(dataToLoad);
             }
             catch (Exception e)
             {
-                Debug.LogError("Có lỗi khi Load dữ liệu :" + fullPath + "\n" + e);
+                Debug.LogError("Error while loading data from file: " + fullPath + "\n" + e);
             }
         }
-        
-        return loadData;
 
+        return loadData;
     }
 
     public void Delete()
     {
-        string fullPath = Path.Combine(dataDirPath, dataFileName);
+        string fullPath = Path.Combine(dataDirPath, dataFileName + ".xml");
 
-        if(File.Exists(fullPath))
+        if (File.Exists(fullPath))
             File.Delete(fullPath);
+    }
+
+    private void EncryptFile(string filePath)
+    {
+        try
+        {
+            string data = File.ReadAllText(filePath);
+            string encryptedData = EncryptDecrypt(data);
+            File.WriteAllText(filePath, encryptedData);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error while encrypting file: " + filePath + "\n" + e);
+        }
+    }
+
+    private void DecryptFile(string filePath)
+    {
+        try
+        {
+            string data = File.ReadAllText(filePath);
+            string decryptedData = EncryptDecrypt(data);
+            File.WriteAllText(filePath, decryptedData);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error while decrypting file: " + filePath + "\n" + e);
+        }
     }
 
     private string EncryptDecrypt(string _data)
@@ -100,6 +125,6 @@ public class FileDataHandler
         }
 
         return modifiedData;
-
     }
 }
+
