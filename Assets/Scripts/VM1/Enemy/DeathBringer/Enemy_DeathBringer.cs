@@ -116,7 +116,6 @@ public class Enemy_DeathBringer : Enemy
             return true;
         }
 
-
         return false;
     }
 

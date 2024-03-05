@@ -83,7 +83,7 @@ public class SaveManager : MonoBehaviour
 
     private List<ISaveManager> FindAllSaveManagers()
     {
-        IEnumerable<ISaveManager> saveManagers = FindObjectsOfType<MonoBehaviour>().OfType<ISaveManager>();
+        IEnumerable<ISaveManager> saveManagers = FindObjectsOfType<MonoBehaviour>().OfType<ISaveManager>();// tim tat ca oj trong game roi luu vao saveManagers
 
         return new List<ISaveManager>(saveManagers);
     }
